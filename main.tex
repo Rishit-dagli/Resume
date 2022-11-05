@@ -1,0 +1,179 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry}
+\usepackage{xcolor}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+\usepackage{hyperref}
+\definecolor{fluorescentyellow}{rgb}{0.8, 1.0, 0.0}
+\newcommand{\cfbox}[2]{%
+    \colorlet{currentcolor}{.}%
+    {\color{#1}%
+    \fbox{\color{currentcolor}#2}}%
+}
+\renewcommand{\bibsection}{}
+% Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Rishit Dagli} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{"I draw a pleasure in thinking"} 
+\address{\href{mailto:hello@rishit.tech}{hello@rishit.tech} \\ \href{https://github.com/Rishit-dagli}{github.com/Rishit-dagli} \\ \href{https://www.rishit.tech}{rishit.tech} \\ \href{https://www.linkedin.com/in/rishit-dagli/}{linkedin.com/in/rishit-dagli/}}  %
+
+\begin{document}
+
+\begin{rSection}{Education}
+
+{\bf Bachelors of Science in Computer Science (1st year)}, University of Toronto \hfill {2022-2026}\\
+Received a scholarship from Geoffrey Hinton and Vector Institute.\\
+Received an entry scholarship from the University of Toronto.\\
+Research assistant under \href{https://davidlindell.com/}{Prof. David Lindell}\\
+Part of the \href{https://www.dgp.toronto.edu/}{DGP Lab} (for AI and Computer Vision) and \href{https://www.cs.toronto.edu/theory/}{Theory Research Group}\\
+Part of the \href{http://cssu.ca/}{CS Student Union} Council.
+
+{\bf High School}, Narayana Junior College \hfill {2020-2022}\\
+Received scholarship by Narayana\\
+Top 1\% Nationally in Junior Science Olympiad\\
+Made past International Math Olympiad qualifier rounds
+
+{\bf Summer School}, Stanford \hfill {2019}\\
+Passed with distinction for the course "Statistical Learning", a course on supervised learning.
+\end{rSection}
+
+\begin{rSection}{SKILLS}
+Python • TensorFlow • Machine Learning • Kubernetes • GCP • Git • Linux • C++ • HTML • CSS • Firebase\\
+Android • Dart • Kotlin • SQL
+\end{rSection}
+
+\begin{rSection}{PUBLICATIONS}
+A few of my recent publications are:
+\nocite{*}
+\bibliography{references}
+\end{rSection}
+
+\begin{rSection}{HONORS AND AWARDS}
+The most recent ones are:
+
+{\bf Invited to give a TEDx and TED-Ed talk} \hfill {2020-2021}\\
+{\bf Research Grant by Google}, sponsors costs working on the CPPE-5 paper \hfill {2021-2022}\\
+{\bf Google Open Source Expert prize}, given to individuals doing great work and contributing \\ to the open-source AI ecosystem \hfill {2022}\\
+{\bf Civo and Steve Wozniak Scholarship}, also gives an opportunity to have breakfast with Steve Wozniak \hfill {2022}\\
+{\bf Linux Foundation Scholarship}, with sponsored trips to KubeCon \hfill {2022}\\
+{\bf TensorFlow Community Spotlight}, received the award for my recent Machine Learning paper,\\awarded to ML projects making using TensorFlow and of high-quality \hfill {2022}\\
+{\bf OpenJS Foundation Scholarship}, with a sponsored trip to OpenJS World \hfill {2022}\\
+{\bf PapersWithCode top contributor award}, received the award for my work in the field of ML \hfill {2022}\\
+{\bf Research Grant by Intel}, sponsors costs working on the queuing paper \hfill {2021}\\
+{\bf TensorFlow}, thanked publicly multiple times by TensorFlow Team for my open-source code\\contributions to TensorFlow on the TensorFlow GitHub releases page \hfill {2021-2022}\\
+{\bf Software Grant by Google Cloud}, sponsors infrastructure for my open-source projects \hfill {2021}\\
+{\bf PyTorch top-contributor}, being one of the top contributors to PyTorch, I was featured for an \\ interview with Meta on CNBC \hfill {2021}\\
+{\bf Microsoft Green Hackathon}, Won the Microsoft Green Hackathon and was featured on\\Microsoft Blog and YouTube \hfill {2021}\\
+{\bf freeCodeCamp top-contributor awards}, being one of the top contributors to freeCodeCamp,\\ the most popular open-source project \hfill {2021}\\
+{\bf HackerNoon AI Genius Award}, given to individuals doing impactful work in the area of AI \hfill {2021}
+\end{rSection}
+
+\begin{rSection}{PROJECTS}
+I also maintain and have built other open-source projects. \href{https://github.com/Rishit-dagli}{GitHub}
+
+{\bf MIRNet-TFJS} \hfill {\href{https://github.com/Rishit-dagli/MIRNet-TFJS}{GitHub} • \href{https://tfhub.dev/rishit-dagli/mirnet-tfjs}{TF Hub}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+\item Featured multiple times on GitHub Trending.
+\item This Implements a research paper and shows the TFJS model conversion and inference processes to allow it to run on the web.
+\item This model is capable of enhancing low-light images up to a great extent.
+\end{itemize}
+
+{\bf Fast transformers} \hfill {\href{https://github.com/Rishit-dagli/Fast-Transformer}{GitHub}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+\item I implemented the paper "Fastformer: Additive Attention Can Be All You Need", a Transformer Variant that can handle far longer sequences than current ones.
+\item Trended \# 1 on all of GitHub.
+\end{itemize}
+
+{\bf Gradient Centralization} \hfill {\href{https://github.com/RISHIT-DAGLI/GRADIENT-CENTRALIZATION-TENSORFLOW}{GitHub} • \href{https://pypi.org/project/gradient-centralization-tf/}{PyPI}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+\item I implemented the paper "Fastformer: Additive Attention Can Be All You Need", a Transformer Variant that can handle far longer sequences than current ones.
+\item Trended \# 1 on all of GitHub.
+\end{itemize}
+
+{\bf TF Watcher} \hfill {\href{https://github.com/Rishit-dagli/TF-Watcher}{GitHub} • \href{https://www.tfwatcher.tech/}{Website} • \href{https://rishit-dagli.github.io/TF-Watcher/}{Docs}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+\item Industry scale project which allows monitoring Machine Learning training, evaluation, and prediction processes on mobile phones with as little as 2 lines of code and is compatible with all kinds of Machine Learning Code.
+\item Won the Major League Hacking (MLH) Fellowship Hackathon.
+\end{itemize}
+
+{\bf Queuing Systems} \hfill {\href{https://link.springer.com/article/10.1007\%2Fs00500-021-05891-2}{Publication}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+\item Created a new Machine Learning recipe to deploy large video models on edge
+devices and validated the research and received a research grant by Intel AI.
+\item Used TensorFlow to implement algorithms and test them on multiple-edge hardware with OpenVino.
+\end{itemize}
+
+{\bf GLOM} \hfill {\href{https://github.com/Rishit-dagli/GLOM-TensorFlow}{GitHub}}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item The first-ever implementation of Geoffrey Hinton's idea paper, "How to represent part-whole hierarchies in a neural network"
+    \item This allows advances made by several different groups of transformers, neural fields, contrastive representation learning, distillation, and capsules to be combined
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Machine Learning Team} \hfill October 2022 - Ongoing\\
+FINCH Mission \hfill \textit{Toronto, ON}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item On the Data Processing team for Field Imaging Nanosatellite for Crop residue Hyperspectral mapping (FINCH) mission.
+     \item Working on using Machine Learning to make sense of the data returned by the satellite as well as on-orbit calibration, at the moment majorly working on image super-resolution and destriping.
+     \item A 3U CubeSat mission projected to launch in Q4 2024 aboard a SpaceX Falcon 9 rocket.
+ \end{itemize}
+ 
+\textbf{Data Processing} \hfill 2021-2022\\
+James Webb Space Telescope \hfill \textit{Mumbai, Remote}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Worked on the data processing team for exoplanet detection on the James Webb Space Telescope.
+     \item Developed Machine Learning algorithms as well as standard reciped to answer the question, "what can we infer from this image": is it an exoplanet, what kind of exoplanet, and what are its properties?
+ \end{itemize}
+
+ \textbf{Fellow} \hfill 2021 Summer\\
+Major League Hacking (MLH) \hfill \textit{Mumbai, Remote}
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item MLH Fellowship is an internship alternative by MLH, Facebook, and GitHub for people who are excited about contributing to open-source.
+     \item Developed and maintained with other fellows an end-to-end open-source industry-scale Machine Learning project "TF Watcher" following best practices.
+    \item Won the End of Fellowship Hackathon.
+ \end{itemize}
+\end{rSection}
+
+\begin{rSection}{LEADERSHIP AND COMMUNITY}
+The major ones are:
+
+{\bf Kubernetes 1.26 Release Team}, part of the team that release Kubernetes 1.26 \hfill {2022}\\
+{\bf Kubeflow 1.17 Release Team}, part of the team that release Kubeflow 1.17 \hfill {2022}\\
+{\bf GitHub Campus Experts} \hfill {2022}\\
+• A student program by GitHub Education identifying leaders of technical student communities\\with extremely low selection rates\\
+• Led the efforts for Field Day Canada, an unconference for technical communities\\
+{\bf Blog}, impacted 100,000+ developers through my blogs \hfill {2019-2022}\\
+• Authored multiple high-quality tutorials on TensorFlow Keras\\
+• Authored multiple high-quality articles on freeCodeCamp\\
+• Personal Blog\\
+{\bf Technical Talks} \hfill {2019-2022}\\
+Spoke at technical conferences sharing my knowledge with others. The major ones are:
+
+\href{https://youtu.be/IeTibm880ys?list=LL&t=4318}{ML Research on Google's YouTube} • \href{https://kccncna2022.sched.com/event/184sa/cl-lightning-talk-open-source-kubernetes-and-cloudnative-from-the-eyes-of-a-high-schooler-rishit-dagli-narayana-junior-college-incoming-university-of-toronto}{KubeCon North America} • \href{https://youtu.be/LTtgaJLo378?t=7624}{TensorFlow Everywhere India} • \href{https://www.twitch.tv/videos/834577736}{Microsoft Global AI Student Conference} • \href{https://www.droidcon.com/media-detail?video=491094795}{Droidcon APAC} • \href{https://www.youtube.com/watch?v=5lr1IbTpwpI&feature=youtu.be&t=113}{Google Devfest} • \href{https://osslatam22.sched.com/event/15BrY}{Open Source Summit} • \href{https://www.google.com/url?q=https%3A%2F%2Fwww.twitch.tv%2Fvideos%2F1121993724%3Ft%3D01h36m00s&sa=D&sntz=1&usg=AOvVaw1pyXglg9cGjLBI_zwpsCrh}{Postman Summit}\\
+{\bf Volunteering}\\
+• Active open-source contributor with high-trust positions in TensorFlow, Kubernetes, Kubeflow,\\ freeCodeCamp, and more\\
+• Active open-source maintainer and creator with multiple of my projects being on GitHub \#1 trending\\
+• Core creator and maintainer of Microsoft's ML For Beginners, now with $>$40K GitHub Stars\\
+• Helped underprivileged and orphan kids with 40 hours of practical education
+about Computer Science.\\
+{\bf TensorFlow Mumbai}\\
+• Created a special interest group in my city for people interested in machine learning\\
+• Mentor members for creating projects or solving queries related to ML\\
+• Featured twice by Google Developers for my work as part of the community
+\end{rSection}
+
+\end{document}
